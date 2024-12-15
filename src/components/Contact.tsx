@@ -139,14 +139,14 @@ export const Contact = () => {
                   <Mail className="w-6 h-6 text-primary-light" />
                   <div>
                     <h4 className="font-medium text-gray-900">אימייל</h4>
-                    <p className="text-gray-600" dir="ltr">contact@automation.com</p>
+                    <p className="text-gray-600" dir="ltr">operation@ad-astra.io</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Phone className="w-6 h-6 text-primary-light" />
                   <div>
                     <h4 className="font-medium text-gray-900">טלפון</h4>
-                    <p className="text-gray-600" dir="ltr">+1 (555) 123-4567</p>
+                    <p className="text-gray-600" dir="ltr">0528624812</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -154,9 +154,9 @@ export const Contact = () => {
                   <div>
                     <h4 className="font-medium text-gray-900">מיקום</h4>
                     <p className="text-gray-600">
-                      רחוב האוטומציה 123
+                      ישראל טל 5
                       <br />
-                      עיר הטכנולוגיה, 12345
+                      תל אביב
                     </p>
                   </div>
                 </div>
