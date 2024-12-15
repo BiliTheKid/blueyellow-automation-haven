@@ -8,12 +8,12 @@ export const Navbar = () => {
   return (
     <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <img 
               src="/lovable-uploads/036a3f73-14dd-4327-8e2c-010175478702.png" 
               alt="לוגו" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </div>
           
