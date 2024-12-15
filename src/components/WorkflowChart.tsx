@@ -86,7 +86,7 @@ const WorkflowChart = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-          Automated Workflow Process
+          תהליך העבודה האוטומטי
         </h2>
         <div className="h-[400px] border border-gray-200 rounded-lg">
           <ReactFlow
