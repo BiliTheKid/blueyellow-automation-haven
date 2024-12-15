@@ -135,22 +135,22 @@ export const Contact = () => {
                 פרטי התקשרות
               </h3>
               <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <Mail className="w-6 h-6 text-primary-light" />
+                <div className="flex items-start">
+                  <Mail className="w-6 h-6 text-primary-light ml-4" />
                   <div>
                     <h4 className="font-medium text-gray-900">אימייל</h4>
                     <p className="text-gray-600" dir="ltr">operation@ad-astra.io</p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <Phone className="w-6 h-6 text-primary-light" />
+                <div className="flex items-start">
+                  <Phone className="w-6 h-6 text-primary-light ml-4" />
                   <div>
                     <h4 className="font-medium text-gray-900">טלפון</h4>
                     <p className="text-gray-600" dir="ltr">0528624812</p>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4">
-                  <MapPin className="w-6 h-6 text-primary-light" />
+                <div className="flex items-start">
+                  <MapPin className="w-6 h-6 text-primary-light ml-4" />
                   <div>
                     <h4 className="font-medium text-gray-900">מיקום</h4>
                     <p className="text-gray-600">
