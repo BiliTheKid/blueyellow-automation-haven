@@ -19,7 +19,7 @@ export const WhatWeDo = () => {
             <p className="text-lg leading-relaxed mb-6">
               בזכות הדרך שעברנו, פיתחנו שיטות עבודה וכלים טכנולוגיים שיעזרו לכם:
             </p>
-            <div className="text-lg space-y-6 mr-auto ml-4 max-w-xl">
+            <div className="text-lg space-y-6 mr-0 ml-auto max-w-xl">
               <motion.div 
                 className="flex items-center justify-end gap-3 text-primary hover:text-primary-light transition-colors group"
                 whileHover={{ x: -5 }}
