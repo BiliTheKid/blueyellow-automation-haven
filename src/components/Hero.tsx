@@ -13,7 +13,7 @@ export const Hero = () => {
           <span className="bg-primary-yellow/10 text-primary px-4 py-2 rounded-full text-sm font-medium inline-block mb-6">
             פתרונות אוטומציה
           </span>
-          <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl font-bold text-primary mb-6 leading-tight">
             בעלי עסקים? תנו לטכנולוגיה לעבוד בשבילכם
           </h1>
           <p className="text-xl text-gray-600 mb-4 max-w-2xl mx-auto">
