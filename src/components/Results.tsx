@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 export const Results = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      company: "Tech Solutions Inc.",
-      content: "The automation solutions provided have transformed our customer service operations. We've seen a 40% increase in response efficiency.",
+      name: "שרה כהן",
+      company: "פתרונות טכנולוגיה בע\"מ",
+      content: "פתרונות האוטומציה שסופקו שינו את פעילות שירות הלקוחות שלנו. ראינו עלייה של 40% ביעילות התגובה.",
       image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
     },
     {
-      name: "Michael Chen",
-      company: "Global Retail Co.",
-      content: "Implementing their WhatsApp automation has helped us maintain 24/7 customer support without increasing our team size.",
+      name: "מיכאל לוי",
+      company: "קמעונאות גלובל בע\"מ",
+      content: "יישום האוטומציה של WhatsApp עזר לנו לשמור על תמיכת לקוחות 24/7 מבלי להגדיל את הצוות שלנו.",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
     },
   ];
@@ -25,9 +25,9 @@ export const Results = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-primary mb-4">Success Stories</h2>
+          <h2 className="text-4xl font-bold text-primary mb-4">סיפורי הצלחה</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            See how our partners have achieved remarkable results with our automation solutions
+            ראו כיצד השותפים שלנו השיגו תוצאות מרשימות עם פתרונות האוטומציה שלנו
           </p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

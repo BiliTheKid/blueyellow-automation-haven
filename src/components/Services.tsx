@@ -4,18 +4,18 @@ import { Settings, Zap, BarChart } from "lucide-react";
 const services = [
   {
     icon: <Settings className="w-8 h-8" />,
-    title: "Process Automation",
-    description: "Streamline your workflows and eliminate repetitive tasks",
+    title: "אוטומציה של תהליכים",
+    description: "ייעול תהליכי העבודה וביטול משימות חוזרות",
   },
   {
     icon: <Zap className="w-8 h-8" />,
-    title: "Smart Integration",
-    description: "Connect your systems seamlessly with intelligent automation",
+    title: "אינטגרציה חכמה",
+    description: "חיבור המערכות שלכם בצורה חלקה עם אוטומציה חכמה",
   },
   {
     icon: <BarChart className="w-8 h-8" />,
-    title: "Performance Analytics",
-    description: "Track and optimize your automated processes in real-time",
+    title: "ניתוח ביצועים",
+    description: "מעקב ואופטימיזציה של התהליכים האוטומטיים בזמן אמת",
   },
 ];
 
@@ -25,13 +25,13 @@ export const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="bg-primary-yellow/10 text-primary px-4 py-2 rounded-full text-sm font-medium inline-block mb-4">
-            Our Services
+            השירותים שלנו
           </span>
           <h2 className="text-4xl font-bold text-primary mb-4">
-            Comprehensive Automation Solutions
+            פתרונות אוטומציה מקיפים
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover how our services can transform your business operations
+            גלו כיצד השירותים שלנו יכולים לשנות את פעילות העסק שלכם
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

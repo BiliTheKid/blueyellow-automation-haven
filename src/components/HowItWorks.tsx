@@ -5,18 +5,18 @@ export const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Identify the Problem",
-      description: "We analyze your business processes to identify areas for improvement",
+      title: "זיהוי הבעיה",
+      description: "אנו מנתחים את תהליכי העסק שלכם כדי לזהות תחומים לשיפור",
     },
     {
       number: "02",
-      title: "Setup Custom Solution",
-      description: "We develop and implement tailored automation solutions for your needs",
+      title: "הגדרת פתרון מותאם אישית",
+      description: "אנו מפתחים ומיישמים פתרונות אוטומציה מותאמים לצרכים שלכם",
     },
     {
       number: "03",
-      title: "Launch & Monitor",
-      description: "Start your automation and track results in real-time",
+      title: "השקה ומעקב",
+      description: "התחלת האוטומציה ומעקב אחר התוצאות בזמן אמת",
     },
   ];
 
@@ -29,9 +29,9 @@ export const HowItWorks = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-primary mb-4">How It Works</h2>
+          <h2 className="text-4xl font-bold text-primary mb-4">איך זה עובד</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Our simple three-step process gets you up and running quickly
+            תהליך פשוט בן שלושה שלבים מאפשר לכם להתחיל במהירות
           </p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

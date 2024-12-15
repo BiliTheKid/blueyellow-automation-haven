@@ -25,8 +25,8 @@ export const Contact = () => {
       if (error) throw error;
 
       toast({
-        title: "Message sent!",
-        description: "We'll get back to you soon.",
+        title: "ההודעה נשלחה!",
+        description: "נחזור אליכם בקרוב.",
       });
 
       setFormData({ name: "", email: "", message: "" });
@@ -34,8 +34,8 @@ export const Contact = () => {
       console.error("Error:", error);
       toast({
         variant: "destructive",
-        title: "Error",
-        description: "Failed to send message. Please try again.",
+        title: "שגיאה",
+        description: "שליחת ההודעה נכשלה. אנא נסו שוב.",
       });
     } finally {
       setIsSubmitting(false);
@@ -57,13 +57,13 @@ export const Contact = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <span className="bg-primary-yellow/10 text-primary px-4 py-2 rounded-full text-sm font-medium inline-block mb-4">
-              Contact Us
+              צור קשר
             </span>
             <h2 className="text-4xl font-bold text-primary mb-4">
-              Let's Discuss Your Automation Needs
+              בואו נדבר על צרכי האוטומציה שלכם
             </h2>
             <p className="text-gray-600">
-              Get in touch with our team of automation experts
+              צרו קשר עם צוות מומחי האוטומציה שלנו
             </p>
           </div>
           <motion.div
@@ -74,12 +74,12 @@ export const Contact = () => {
           >
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-semibold mb-6 text-primary">
-                Send us a message
+                שלחו לנו הודעה
               </h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Name
+                    שם
                   </label>
                   <input
                     type="text"
@@ -88,12 +88,12 @@ export const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-light/50"
-                    placeholder="Your name"
+                    placeholder="השם שלך"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Email
+                    אימייל
                   </label>
                   <input
                     type="email"
@@ -103,11 +103,12 @@ export const Contact = () => {
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-light/50"
                     placeholder="your@email.com"
+                    dir="ltr"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Message
+                    הודעה
                   </label>
                   <textarea
                     name="message"
@@ -116,7 +117,7 @@ export const Contact = () => {
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-light/50"
                     rows={4}
-                    placeholder="How can we help you?"
+                    placeholder="כיצד נוכל לעזור לך?"
                   />
                 </div>
                 <motion.button
@@ -125,37 +126,37 @@ export const Contact = () => {
                   disabled={isSubmitting}
                   className="w-full bg-primary text-white py-3 rounded-lg font-medium hover:shadow-lg transition-shadow duration-300 disabled:opacity-50"
                 >
-                  {isSubmitting ? "Sending..." : "Send Message"}
+                  {isSubmitting ? "שולח..." : "שלח הודעה"}
                 </motion.button>
               </form>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-semibold mb-6 text-primary">
-                Contact Information
+                פרטי התקשרות
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Mail className="w-6 h-6 text-primary-light" />
                   <div>
-                    <h4 className="font-medium text-gray-900">Email</h4>
-                    <p className="text-gray-600">contact@automation.com</p>
+                    <h4 className="font-medium text-gray-900">אימייל</h4>
+                    <p className="text-gray-600" dir="ltr">contact@automation.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <Phone className="w-6 h-6 text-primary-light" />
                   <div>
-                    <h4 className="font-medium text-gray-900">Phone</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <h4 className="font-medium text-gray-900">טלפון</h4>
+                    <p className="text-gray-600" dir="ltr">+1 (555) 123-4567</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <MapPin className="w-6 h-6 text-primary-light" />
                   <div>
-                    <h4 className="font-medium text-gray-900">Location</h4>
+                    <h4 className="font-medium text-gray-900">מיקום</h4>
                     <p className="text-gray-600">
-                      123 Automation Street
+                      רחוב האוטומציה 123
                       <br />
-                      Tech City, TC 12345
+                      עיר הטכנולוגיה, 12345
                     </p>
                   </div>
                 </div>

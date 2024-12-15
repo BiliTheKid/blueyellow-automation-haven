@@ -4,47 +4,47 @@ export const OurTools = () => {
   const tools = [
     {
       name: "Salesforce",
-      description: "CRM Integration",
+      description: "אינטגרציית CRM",
       icon: "https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/05/Salesforce-logo.jpg",
     },
     {
       name: "ManyChat",
-      description: "Chat Automation",
+      description: "אוטומציית צ'אט",
       icon: "https://assets.website-files.com/5daaade3e3e3f04da71daa8e/5daaade3e3e3f0b11f1daa9c_manychat_logo_square.png",
     },
     {
       name: "WordPress",
-      description: "Content Management",
+      description: "ניהול תוכן",
       icon: "https://s.w.org/style/images/about/WordPress-logotype-standard.png",
     },
     {
       name: "Google Drive",
-      description: "Cloud Storage",
+      description: "אחסון בענן",
       icon: "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg",
     },
     {
       name: "Telegram",
-      description: "Messaging Platform",
+      description: "פלטפורמת הודעות",
       icon: "https://telegram.org/img/t_logo.png",
     },
     {
       name: "HubSpot",
-      description: "Marketing Automation",
+      description: "אוטומציית שיווק",
       icon: "https://www.hubspot.com/hubfs/assets/hubspot.com/style-guide/brand-guidelines/guidelines_the-logo.svg",
     },
     {
       name: "Zapier",
-      description: "Workflow Automation",
+      description: "אוטומציית תהליכי עבודה",
       icon: "https://cdn.zapier.com/zapier/images/logos/zapier-logo.png",
     },
     {
       name: "Airtable",
-      description: "Database Management",
+      description: "ניהול מסדי נתונים",
       icon: "https://www.airtable.com/images/favicon/apple-touch-icon.png",
     },
     {
       name: "Slack",
-      description: "Team Communication",
+      description: "תקשורת צוות",
       icon: "https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png",
     },
   ];
@@ -58,9 +58,9 @@ export const OurTools = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-primary mb-4">Our Tools</h2>
+          <h2 className="text-4xl font-bold text-primary mb-4">הכלים שלנו</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We use industry-leading tools and technologies to power your automation
+            אנו משתמשים בכלים וטכנולוגיות מובילים בתעשייה להפעלת האוטומציה שלכם
           </p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

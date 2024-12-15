@@ -3,12 +3,12 @@ import { CheckCircle } from "lucide-react";
 
 export const WhyUs = () => {
   const benefits = [
-    "Industry-leading automation expertise",
-    "24/7 customer support",
-    "Customizable solutions",
-    "Seamless integration capabilities",
-    "Proven track record of success",
-    "Continuous innovation and updates",
+    "מומחיות מובילה בתחום האוטומציה",
+    "תמיכת לקוחות 24/7",
+    "פתרונות מותאמים אישית",
+    "יכולות אינטגרציה חלקות",
+    "הוכחת הצלחה מוכחת",
+    "חדשנות ועדכונים מתמשכים",
   ];
 
   return (
@@ -20,9 +20,9 @@ export const WhyUs = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl font-bold text-primary mb-6">Why Choose Us?</h2>
+            <h2 className="text-4xl font-bold text-primary mb-6">למה לבחור בנו?</h2>
             <p className="text-gray-600 mb-8">
-              We combine expertise, innovation, and dedication to deliver the best automation solutions for your business
+              אנו משלבים מומחיות, חדשנות ומסירות כדי לספק את פתרונות האוטומציה הטובים ביותר עבור העסק שלכם
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {benefits.map((benefit, index) => (
@@ -47,7 +47,7 @@ export const WhyUs = () => {
           >
             <img
               src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-              alt="Team collaboration"
+              alt="שיתוף פעולה בצוות"
               className="rounded-lg shadow-xl"
             />
           </motion.div>
