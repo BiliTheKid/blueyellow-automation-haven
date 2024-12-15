@@ -3,24 +3,49 @@ import { motion } from "framer-motion";
 export const OurTools = () => {
   const tools = [
     {
-      name: "CRM Integration",
-      description: "Connect with popular CRM platforms",
-      icon: "https://cdn-icons-png.flaticon.com/512/3059/3059997.png",
-    },
-    {
-      name: "Python Automation",
-      description: "Powerful backend processing",
-      icon: "https://www.python.org/static/community_logos/python-logo-generic.svg",
+      name: "Salesforce",
+      description: "CRM Integration",
+      icon: "https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/05/Salesforce-logo.jpg",
     },
     {
       name: "ManyChat",
-      description: "Advanced chat automation",
+      description: "Chat Automation",
       icon: "https://assets.website-files.com/5daaade3e3e3f04da71daa8e/5daaade3e3e3f0b11f1daa9c_manychat_logo_square.png",
     },
     {
-      name: "WhatsApp Business",
-      description: "Direct customer communication",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png",
+      name: "WordPress",
+      description: "Content Management",
+      icon: "https://s.w.org/style/images/about/WordPress-logotype-standard.png",
+    },
+    {
+      name: "Google Drive",
+      description: "Cloud Storage",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg",
+    },
+    {
+      name: "Telegram",
+      description: "Messaging Platform",
+      icon: "https://telegram.org/img/t_logo.png",
+    },
+    {
+      name: "HubSpot",
+      description: "Marketing Automation",
+      icon: "https://www.hubspot.com/hubfs/assets/hubspot.com/style-guide/brand-guidelines/guidelines_the-logo.svg",
+    },
+    {
+      name: "Zapier",
+      description: "Workflow Automation",
+      icon: "https://cdn.zapier.com/zapier/images/logos/zapier-logo.png",
+    },
+    {
+      name: "Airtable",
+      description: "Database Management",
+      icon: "https://www.airtable.com/images/favicon/apple-touch-icon.png",
+    },
+    {
+      name: "Slack",
+      description: "Team Communication",
+      icon: "https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png",
     },
   ];
 
@@ -38,7 +63,7 @@ export const OurTools = () => {
             We use industry-leading tools and technologies to power your automation
           </p>
         </motion.div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {tools.map((tool, index) => (
             <motion.div
               key={index}
