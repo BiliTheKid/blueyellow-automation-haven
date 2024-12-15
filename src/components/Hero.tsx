@@ -10,7 +10,7 @@ export const Hero = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-4xl mx-auto"
         >
-          <span className="bg-primary-yellow/10 text-primary px-4 py-2 rounded-full text-sm font-medium inline-block mb-6">
+          <span className="bg-primary-yellow/10 text-primary px-4 py-2 rounded-full text-sm font-medium inline-block mb-6 mt-8">
             פתרונות אוטומציה
           </span>
           <h1 className="text-3xl md:text-5xl font-bold text-primary mb-6 leading-tight">
