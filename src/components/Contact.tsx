@@ -60,10 +60,10 @@ export const Contact = () => {
               צור קשר
             </span>
             <h2 className="text-4xl font-bold text-primary mb-4">
-              בואו נדבר על צרכי האוטומציה שלכם
+              צרו קשר עכשיו
             </h2>
             <p className="text-gray-600">
-              צרו קשר עם צוות מומחי האוטומציה שלנו
+              קבלו ייעוץ ראשוני חינם ותראו בדיוק איך אוטומציה יכולה להצמיח את העסק שלכם
             </p>
           </div>
           <motion.div
