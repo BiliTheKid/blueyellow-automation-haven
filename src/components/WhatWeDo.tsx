@@ -19,9 +19,18 @@ export const WhatWeDo = () => {
               בזכות הדרך שעברנו, פיתחנו שיטות עבודה וכלים טכנולוגיים שיעזרו לכם:
             </p>
             <ul className="text-lg space-y-4 text-right max-w-xl mx-auto">
-              <li>להגדיל את ההכנסות באופן משמעותי</li>
-              <li>לקבל שליטה מלאה על הנתונים העסקיים</li>
-              <li>לישון טוב בלילה כשאתם יודעים שהכל מתנהל כמו שצריך</li>
+              <li className="flex items-center justify-end gap-2">
+                <span>להגדיל את ההכנסות באופן משמעותי</span>
+                <span className="text-primary-light">-</span>
+              </li>
+              <li className="flex items-center justify-end gap-2">
+                <span>לקבל שליטה מלאה על הנתונים העסקיים</span>
+                <span className="text-primary-light">-</span>
+              </li>
+              <li className="flex items-center justify-end gap-2">
+                <span>לישון טוב בלילה כשאתם יודעים שהכל מתנהל כמו שצריך</span>
+                <span className="text-primary-light">-</span>
+              </li>
             </ul>
           </div>
         </motion.div>

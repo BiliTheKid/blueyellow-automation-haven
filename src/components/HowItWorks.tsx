@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
 export const HowItWorks = () => {
   const steps = [
@@ -51,7 +51,7 @@ export const HowItWorks = () => {
                 <p className="text-gray-600 mb-4">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
-                <ArrowRight className="hidden md:block absolute top-1/2 -right-6 transform -translate-y-1/2 text-primary-light" />
+                <ArrowLeft className="hidden md:block absolute top-1/2 -left-6 transform -translate-y-1/2 text-primary-light" />
               )}
             </motion.div>
           ))}
