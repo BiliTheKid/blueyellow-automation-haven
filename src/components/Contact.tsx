@@ -1,7 +1,56 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+import { useToast } from "@/components/ui/use-toast";
 
 export const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast } = useToast();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const { error } = await supabase
+        .from("contact_leads")
+        .insert([formData]);
+
+      if (error) throw error;
+
+      toast({
+        title: "Message sent!",
+        description: "We'll get back to you soon.",
+      });
+
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      console.error("Error:", error);
+      toast({
+        variant: "destructive",
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
   return (
     <section className="py-20 bg-primary-light/5">
       <div className="container mx-auto px-4">
@@ -27,13 +76,17 @@ export const Contact = () => {
               <h3 className="text-2xl font-semibold mb-6 text-primary">
                 Send us a message
               </h3>
-              <form className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Name
                   </label>
                   <input
                     type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-light/50"
                     placeholder="Your name"
                   />
@@ -44,6 +97,10 @@ export const Contact = () => {
                   </label>
                   <input
                     type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-light/50"
                     placeholder="your@email.com"
                   />
@@ -53,6 +110,10 @@ export const Contact = () => {
                     Message
                   </label>
                   <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-light/50"
                     rows={4}
                     placeholder="How can we help you?"
@@ -61,9 +122,10 @@ export const Contact = () => {
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full bg-primary text-white py-3 rounded-lg font-medium hover:shadow-lg transition-shadow duration-300"
+                  disabled={isSubmitting}
+                  className="w-full bg-primary text-white py-3 rounded-lg font-medium hover:shadow-lg transition-shadow duration-300 disabled:opacity-50"
                 >
-                  Send Message
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </motion.button>
               </form>
             </div>
