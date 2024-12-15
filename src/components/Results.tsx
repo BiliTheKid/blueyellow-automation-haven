@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 export const Results = () => {
   const testimonials = [
     {
-      name: "שרה כהן",
-      company: "פתרונות טכנולוגיה בע\"מ",
+      name: "ירדן זלוף",
+      company: "אלמנטס בניה בע\"מ",
       content: "פתרונות האוטומציה שסופקו שינו את פעילות שירות הלקוחות שלנו. ראינו עלייה של 40% ביעילות התגובה.",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
+      image: "/lovable-uploads/56ce3c55-b288-46b8-9d97-65053dd47b8f.png",
     },
     {
       name: "אביב חכם",
