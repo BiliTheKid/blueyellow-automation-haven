@@ -12,7 +12,7 @@ export const Navbar = () => {
           <div className="flex items-center">
             <img 
               src="/lovable-uploads/036a3f73-14dd-4327-8e2c-010175478702.png" 
-              alt="AutomationHaven Logo" 
+              alt="לוגו" 
               className="h-12 w-auto"
             />
           </div>
@@ -24,12 +24,12 @@ export const Navbar = () => {
             <Menu className="h-6 w-6" />
           </button>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#what-we-do" className="text-gray-600 hover:text-primary">What We Do</a>
-            <a href="#how-it-works" className="text-gray-600 hover:text-primary">How It Works</a>
-            <a href="#why-us" className="text-gray-600 hover:text-primary">Why Us</a>
-            <a href="#our-tools" className="text-gray-600 hover:text-primary">Our Tools</a>
-            <a href="#contact" className="text-gray-600 hover:text-primary">Contact</a>
+          <div className="hidden md:flex items-center gap-8">
+            <a href="#what-we-do" className="text-gray-600 hover:text-primary">מה אנחנו עושים</a>
+            <a href="#how-it-works" className="text-gray-600 hover:text-primary">איך זה עובד</a>
+            <a href="#why-us" className="text-gray-600 hover:text-primary">למה אנחנו</a>
+            <a href="#our-tools" className="text-gray-600 hover:text-primary">הכלים שלנו</a>
+            <a href="#contact" className="text-gray-600 hover:text-primary">צור קשר</a>
           </div>
         </div>
 
@@ -42,11 +42,11 @@ export const Navbar = () => {
               className="md:hidden"
             >
               <div className="py-2 space-y-2">
-                <a href="#what-we-do" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">What We Do</a>
-                <a href="#how-it-works" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">How It Works</a>
-                <a href="#why-us" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">Why Us</a>
-                <a href="#our-tools" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">Our Tools</a>
-                <a href="#contact" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">Contact</a>
+                <a href="#what-we-do" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">מה אנחנו עושים</a>
+                <a href="#how-it-works" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">איך זה עובד</a>
+                <a href="#why-us" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">למה אנחנו</a>
+                <a href="#our-tools" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">הכלים שלנו</a>
+                <a href="#contact" className="block px-4 py-2 text-gray-600 hover:bg-gray-100 rounded">צור קשר</a>
               </div>
             </motion.div>
           )}
