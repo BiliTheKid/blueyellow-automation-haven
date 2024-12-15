@@ -10,7 +10,7 @@ export const Results = () => {
     },
     {
       name: "אביב חכם",
-      company: "הבית ברחוב מנדלי מוס",
+      company: "הבית ברחוב מנדלי מוס בע\"מ",
       content: "יישום האוטומציה של WhatsApp עזר לנו לשמור על תמיכת לקוחות 24/7 מבלי להגדיל את הצוות שלנו.",
       image: "/lovable-uploads/4e3629be-8a17-43b0-813f-4654adba5457.png",
     },
