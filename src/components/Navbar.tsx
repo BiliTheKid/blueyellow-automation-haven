@@ -10,8 +10,12 @@ export const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img src="/logo.png" alt="Logo" className="h-8" />
-            <span className="ml-2 text-xl font-bold text-primary">AutomationHaven</span>
+            <img 
+              src="/lovable-uploads/036a3f73-14dd-4327-8e2c-010175478702.png" 
+              alt="AutomationHaven Logo" 
+              className="h-8 w-auto"
+            />
+            <span className="ml-3 text-xl font-bold text-primary">AutomationHaven</span>
           </div>
           
           <button
