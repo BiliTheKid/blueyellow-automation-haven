@@ -19,19 +19,31 @@ export const WhatWeDo = () => {
             <p className="text-lg leading-relaxed mb-6">
               בזכות הדרך שעברנו, פיתחנו שיטות עבודה וכלים טכנולוגיים שיעזרו לכם:
             </p>
-            <div className="text-lg space-y-4 mr-auto ml-4 max-w-xl">
-              <div className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
-                <span>להגדיל את ההכנסות באופן משמעותי</span>
-                <ChevronLeft className="text-primary-light w-6 h-6" />
-              </div>
-              <div className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
-                <span>לקבל שליטה מלאה על הנתונים העסקיים</span>
-                <ChevronLeft className="text-primary-light w-6 h-6" />
-              </div>
-              <div className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
-                <span>לישון טוב בלילה כשאתם יודעים שהכל מתנהל כמו שצריך</span>
-                <ChevronLeft className="text-primary-light w-6 h-6" />
-              </div>
+            <div className="text-lg space-y-6 mr-auto ml-4 max-w-xl">
+              <motion.div 
+                className="flex items-center justify-end gap-3 text-primary hover:text-primary-light transition-colors group"
+                whileHover={{ x: -5 }}
+                transition={{ duration: 0.2 }}
+              >
+                <span className="font-medium">להגדיל את ההכנסות באופן משמעותי</span>
+                <ChevronLeft className="w-6 h-6 group-hover:text-primary-yellow transition-colors" />
+              </motion.div>
+              <motion.div 
+                className="flex items-center justify-end gap-3 text-primary hover:text-primary-light transition-colors group"
+                whileHover={{ x: -5 }}
+                transition={{ duration: 0.2 }}
+              >
+                <span className="font-medium">לקבל שליטה מלאה על הנתונים העסקיים</span>
+                <ChevronLeft className="w-6 h-6 group-hover:text-primary-yellow transition-colors" />
+              </motion.div>
+              <motion.div 
+                className="flex items-center justify-end gap-3 text-primary hover:text-primary-light transition-colors group"
+                whileHover={{ x: -5 }}
+                transition={{ duration: 0.2 }}
+              >
+                <span className="font-medium">לישון טוב בלילה כשאתם יודעים שהכל מתנהל כמו שצריך</span>
+                <ChevronLeft className="w-6 h-6 group-hover:text-primary-yellow transition-colors" />
+              </motion.div>
             </div>
           </div>
         </motion.div>
