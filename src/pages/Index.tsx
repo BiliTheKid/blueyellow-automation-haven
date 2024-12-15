@@ -9,6 +9,7 @@ import { Contact } from "@/components/Contact";
 import { Navbar } from "@/components/Navbar";
 import WhatsAppDemo from "@/components/WhatsAppDemo";
 import WorkflowChart from "@/components/WorkflowChart";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
       <WorkflowChart />
       <Results />
       <Contact />
+      <Footer />
     </main>
   );
 };
