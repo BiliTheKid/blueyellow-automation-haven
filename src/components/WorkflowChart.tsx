@@ -14,26 +14,54 @@ const initialNodes = [
   {
     id: '1',
     type: 'input',
-    data: { label: 'Customer Request' },
+    data: { 
+      label: (
+        <div className="flex flex-col items-center gap-2">
+          <img src="https://cdn-icons-png.flaticon.com/512/2175/2175377.png" alt="CRM" className="w-8 h-8" />
+          <span>CRM System</span>
+        </div>
+      )
+    },
     position: { x: 250, y: 0 },
     style: { background: '#0A2540', color: 'white' }
   },
   {
     id: '2',
-    data: { label: 'AI Processing' },
+    data: { 
+      label: (
+        <div className="flex flex-col items-center gap-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" className="w-8 h-8" />
+          <span>Python Processing</span>
+        </div>
+      )
+    },
     position: { x: 250, y: 100 },
     style: { background: '#33C3F0', color: 'white' }
   },
   {
     id: '3',
-    data: { label: 'Task Assignment' },
+    data: { 
+      label: (
+        <div className="flex flex-col items-center gap-2">
+          <img src="https://play-lh.googleusercontent.com/xQ5K9Zs-UfPNqX9N6vbYj-m-FYoFpMvqAXTvEF9i5R0WKaQA3G5GqFdHfpXGQQ0jUQ" alt="ManyChat" className="w-8 h-8" />
+          <span>ManyChat</span>
+        </div>
+      )
+    },
     position: { x: 250, y: 200 },
     style: { background: '#FFD700' }
   },
   {
     id: '4',
     type: 'output',
-    data: { label: 'Service Completion' },
+    data: { 
+      label: (
+        <div className="flex flex-col items-center gap-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-8 h-8" />
+          <span>WhatsApp API</span>
+        </div>
+      )
+    },
     position: { x: 250, y: 300 },
     style: { background: '#0A2540', color: 'white' }
   },
@@ -60,7 +88,7 @@ const WorkflowChart = () => {
         <h2 className="text-3xl font-bold text-primary mb-8 text-center">
           Automated Workflow Process
         </h2>
-        <div className="h-[600px] border border-gray-200 rounded-lg">
+        <div className="h-[400px] border border-gray-200 rounded-lg">
           <ReactFlow
             nodes={nodes}
             edges={edges}
