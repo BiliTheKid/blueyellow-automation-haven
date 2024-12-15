@@ -9,10 +9,10 @@ export const Results = () => {
       image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
     },
     {
-      name: "מיכאל לוי",
-      company: "קמעונאות גלובל בע\"מ",
+      name: "אביב חכם",
+      company: "הבית ברחוב מנדלי מוס",
       content: "יישום האוטומציה של WhatsApp עזר לנו לשמור על תמיכת לקוחות 24/7 מבלי להגדיל את הצוות שלנו.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+      image: "/lovable-uploads/4e3629be-8a17-43b0-813f-4654adba5457.png",
     },
   ];
 
