@@ -5,13 +5,13 @@ export const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Connect Your CRM",
-      description: "Integrate your existing CRM system with our platform",
+      title: "Identify the Problem",
+      description: "We analyze your business processes to identify areas for improvement",
     },
     {
       number: "02",
-      title: "Setup Automation",
-      description: "Configure your automation workflows using our intuitive interface",
+      title: "Setup Custom Solution",
+      description: "We develop and implement tailored automation solutions for your needs",
     },
     {
       number: "03",
