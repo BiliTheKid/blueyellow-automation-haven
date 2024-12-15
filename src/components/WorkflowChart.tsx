@@ -43,7 +43,7 @@ const initialNodes = [
     data: { 
       label: (
         <div className="flex flex-col items-center gap-2">
-          <img src="https://manychat.com/favicon.png" alt="ManyChat" className="w-8 h-8" />
+          <img src="/lovable-uploads/4edfcbd4-a8d6-47a3-ae0c-d631d5290c53.png" alt="ManyChat" className="w-8 h-8" />
           <span>ManyChat</span>
         </div>
       )

@@ -10,7 +10,7 @@ export const OurTools = () => {
     {
       name: "ManyChat",
       description: "אוטומציית צ'אט",
-      icon: "https://manychat.com/favicon.png",
+      icon: "/lovable-uploads/4edfcbd4-a8d6-47a3-ae0c-d631d5290c53.png",
     },
     {
       name: "WordPress",
