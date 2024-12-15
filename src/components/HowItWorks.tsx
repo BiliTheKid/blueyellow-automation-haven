@@ -41,14 +41,14 @@ export const HowItWorks = () => {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="relative h-full"
+              className="relative"
             >
-              <div className="bg-white p-8 rounded-xl shadow-lg h-full flex flex-col">
+              <div className="bg-white p-8 rounded-xl shadow-lg">
                 <span className="text-4xl font-bold text-primary-light/20 absolute top-4 right-4">
                   {step.number}
                 </span>
-                <h3 className="text-xl font-semibold mb-4 mt-8">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
+                <h3 className="text-xl font-semibold mb-4">{step.title}</h3>
+                <p className="text-gray-600 mb-4">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
                 <ArrowLeft className="hidden md:block absolute top-1/2 -left-6 transform -translate-y-1/2 text-primary-light" />
