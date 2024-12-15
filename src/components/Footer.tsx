@@ -1,4 +1,4 @@
-import { ArrowUp } from "lucide-react";
+import { ArrowUp, Mail, Phone, MapPin } from "lucide-react";
 
 export const Footer = () => {
   const scrollToTop = () => {
@@ -12,7 +12,7 @@ export const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">אודותינו</h3>
             <p className="text-gray-300">
-              אנו עוזרים לעסקים לאוטמט את הפעילות שלהם ולהשיג יעילות גבוהה יותר באמצעות פתרונות טכנולוגיים מתקדמים.
+              אנו עוזרים לעסקים לאטמט את הפעילות שלכם ולהשיג יעילות גבוהה יותר באמצעות פתרונות טכנולוגיים מתקדמים.
             </p>
           </div>
           <div>
@@ -25,15 +25,36 @@ export const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-bold mb-4">צור קשר</h3>
-            <p className="text-gray-300" dir="ltr">
-              Email: info@automationhaven.com<br />
-              Phone: (555) 123-4567
-            </p>
+            <h3 className="text-xl font-bold mb-4">פרטי התקשרות</h3>
+            <div className="space-y-4" dir="rtl">
+              <div className="flex items-center">
+                <Mail className="h-5 w-5 ml-3" />
+                <div>
+                  <h4 className="font-medium text-gray-300">אימייל</h4>
+                  <p className="text-gray-300" dir="ltr">operation@ad-astra.io</p>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <Phone className="h-5 w-5 ml-3" />
+                <div>
+                  <h4 className="font-medium text-gray-300">טלפון</h4>
+                  <p className="text-gray-300" dir="ltr">0528624812</p>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <MapPin className="h-5 w-5 ml-3" />
+                <div>
+                  <h4 className="font-medium text-gray-300">מיקום</h4>
+                  <p className="text-gray-300">
+                    ישראל טל 5, תל אביב
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="border-t border-gray-700 pt-8 flex justify-between items-center">
-          <p className="text-gray-300">© 2024 AutomationH. כל הזכויות שמורות.</p>
+          <p className="text-gray-300">© 2024 ad-astra. כל הזכויות שמורות.</p>
           <button
             onClick={scrollToTop}
             className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors"
