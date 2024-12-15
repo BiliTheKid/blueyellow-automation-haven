@@ -17,7 +17,7 @@ const initialNodes = [
     data: { 
       label: (
         <div className="flex flex-col items-center gap-2">
-          <img src="https://cdn-icons-png.flaticon.com/512/2175/2175377.png" alt="CRM" className="w-8 h-8" />
+          <img src="https://cdn-icons-png.flaticon.com/512/3059/3059997.png" alt="CRM" className="w-8 h-8" />
           <span>CRM System</span>
         </div>
       )
@@ -43,7 +43,7 @@ const initialNodes = [
     data: { 
       label: (
         <div className="flex flex-col items-center gap-2">
-          <img src="https://play-lh.googleusercontent.com/xQ5K9Zs-UfPNqX9N6vbYj-m-FYoFpMvqAXTvEF9i5R0WKaQA3G5GqFdHfpXGQQ0jUQ" alt="ManyChat" className="w-8 h-8" />
+          <img src="https://assets.website-files.com/5daaade3e3e3f04da71daa8e/5daaade3e3e3f0b11f1daa9c_manychat_logo_square.png" alt="ManyChat" className="w-8 h-8" />
           <span>ManyChat</span>
         </div>
       )
