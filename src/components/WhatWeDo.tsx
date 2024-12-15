@@ -18,17 +18,17 @@ export const WhatWeDo = () => {
             <p className="text-lg leading-relaxed mb-6">
               בזכות הדרך שעברנו, פיתחנו שיטות עבודה וכלים טכנולוגיים שיעזרו לכם:
             </p>
-            <ul className="text-lg space-y-4 text-right max-w-xl mx-auto">
-              <li className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
+            <div className="text-lg space-y-4 mr-auto ml-4 max-w-xl">
+              <div className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
                 <span>להגדיל את ההכנסות באופן משמעותי</span>
-              </li>
-              <li className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
+              </div>
+              <div className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
                 <span>לקבל שליטה מלאה על הנתונים העסקיים</span>
-              </li>
-              <li className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
+              </div>
+              <div className="flex items-center justify-end gap-3 bg-gradient-to-l from-white to-gray-50 p-4 rounded-lg border-r-4 border-primary-light hover:shadow-md transition-all">
                 <span>לישון טוב בלילה כשאתם יודעים שהכל מתנהל כמו שצריך</span>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>
