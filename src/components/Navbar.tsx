@@ -15,7 +15,6 @@ export const Navbar = () => {
               alt="AutomationHaven Logo" 
               className="h-8 w-auto"
             />
-            <span className="ml-3 text-xl font-bold text-primary">AutomationHaven</span>
           </div>
           
           <button
