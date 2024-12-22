@@ -5,12 +5,12 @@ const services = [
   {
     icon: <Settings className="w-8 h-8" />,
     title: "אוטומציה של תהליכים",
-    description: "ייעול תהליכי העבודה וביטול משימות חוזרות",
+    description: "ייעול תהליכי העבודה וביטול משימות שחוזרות על עצמן",
   },
   {
     icon: <Zap className="w-8 h-8" />,
     title: "אינטגרציה חכמה",
-    description: "חיבור המערכות שלכם בצורה חלקה עם אוטומציה חכמה",
+    description: "חיבור המערכות שלכם עם אוטומציה חכמה ללא תקלות",
   },
   {
     icon: <BarChart className="w-8 h-8" />,

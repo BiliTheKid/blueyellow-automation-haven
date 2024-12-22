@@ -14,7 +14,7 @@ export const WhatWeDo = () => {
           <h2 className="text-4xl font-bold text-primary mb-4">מה אנחנו עושים</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg leading-relaxed mb-8 text-gray-600">
-              אנחנו לא סתם יועצים - אנחנו בעלי עסקים בדיוק כמוכם. הקמנו, ניהלנו וצמחנו עם מותגי משלנו, ועברנו את כל האתגרים שאתם חווים היום. כשאנחנו אומרים שאנחנו מבינים את הכאב שלכם - זה מניסיון אישי.
+              אנחנו לא סתם יועצים - אנחנו בעלי עסקים בדיוק כמוכם. הקמנו, ניהלנו וצמחנו עם מותגים משלנו, ועברנו את כל האתגרים שאתם חווים היום. כשאנחנו אומרים שאנחנו מבינים את הכאב שלכם - זה מניסיון אישי.
             </p>
             <p className="text-lg leading-relaxed mb-12 text-gray-600">
               בזכות הדרך שעברנו, פיתחנו שיטות עבודה וכלים טכנולוגיים שיעזרו לכם:
@@ -41,7 +41,7 @@ export const WhatWeDo = () => {
                 whileHover={{ x: -5 }}
                 transition={{ duration: 0.2 }}
               >
-                <span className="text-xl font-medium">לישון טוב בלילה כשאתם יודעים שהכל מתנהל כמו שצריך</span>
+                <span className="text-xl font-medium">לעבוד חכם עם תהליכים אוטומטיים לחלוטין, בלי התעסקות מיותרת.</span>
                 <ChevronLeft className="w-6 h-6 group-hover:text-primary-yellow transition-colors" />
               </motion.div>
             </div>
