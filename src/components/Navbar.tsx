@@ -13,7 +13,7 @@ export const Navbar = () => {
             <img 
               src="/lovable-uploads/036a3f73-14dd-4327-8e2c-010175478702.png" 
               alt="לוגו" 
-              className="h-24 w-auto"
+              className="h-28 w-auto"
             />
           </div>
           
